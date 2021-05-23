@@ -79,8 +79,6 @@ const ExpenseForm = (props) => {
     setEnteredDate("");
   };
 
-  console.log("Component re-rendered!");
-
   return (
     <form onSubmit={submitHandler}>
       <div className="new-expense__controls">
